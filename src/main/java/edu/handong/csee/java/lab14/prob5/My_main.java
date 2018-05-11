@@ -6,17 +6,17 @@ import java.util.Scanner;
 
 // My_main class
 public class My_main {
-	
+
 	// main method
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // calls the instance of Scanner class to read user inputs
 		String message; // message defined as String type
-		
+
 		// try block
 		try {
-		message = input.nextLine(); // gets the user input in the form of a line and store it into message variable
-		MyException exception = new MyException(message); // creates the MyException class instance
-		myTest(message); // calls the static method myTest()
+			message = input.nextLine(); // gets the user input in the form of a line and store it into message variable
+			MyException exception = new MyException(message); // creates the MyException class instance
+			myTest(message); // calls the static method myTest()
 		}
 		// catch block
 		catch(MyException mae) {
@@ -24,7 +24,7 @@ public class My_main {
 		}
 
 	}
-	
+
 	// myTest static method that can throw MyException
 	static void myTest(String message) throws MyException {
 		// if the message passed on (as parameter) was "null",

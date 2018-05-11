@@ -8,13 +8,13 @@ import java.util.*;
 public class In_exception {
 	private int x,y; // x and y values in variables
 	Scanner input = new Scanner(System.in); // creates Scanner class instance to get user values
-	
+
 	// empty constructor
 	public In_exception() {
 		x=0; // sets the value of x as default 0
 		y=0; // sets the value of y as default 0
 	}
-	
+
 	// takeInput() method
 	public void takeInput() {
 		System.out.print("x: "); // guides the user to enter the value of x
@@ -22,7 +22,7 @@ public class In_exception {
 		System.out.print("y: "); // guides the user to enter the value of y
 		y = input.nextInt(); // stores that value of y into the variable
 	}
-	
+
 	// errorDetection() method
 	public void errorDetection() {
 		// try block

@@ -13,7 +13,7 @@ public class Custom_main {
 		Scanner keyboard = new Scanner(System.in); // creates a Scanner class instance to read user inputs 
 		CustomID obj = new CustomID(); // creates instance of CustomID class
 		boolean repeat = true; // initializes the boolean variable to true
-		
+
 		// while repeat is true it will keep the loop
 		while(repeat) {
 			// try block

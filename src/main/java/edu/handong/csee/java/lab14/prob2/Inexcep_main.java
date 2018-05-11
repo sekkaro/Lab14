@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 // Inexcep_main class
 public class Inexcep_main {
-	
+
 	// main method
 	public static void main(String[] args) {
 		In_exception exceptionCheck = new In_exception(); // creates instance of In_exception class

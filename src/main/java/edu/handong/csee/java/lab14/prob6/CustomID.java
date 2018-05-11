@@ -8,7 +8,7 @@ public class CustomID {
 	private int age = 0; // initializes the age as 0
 	private String race =""; // initializes the race as an empty string
 	private int state = 0; // initializes the state as 0
-	
+
 	// set_name method that can throw Exception
 	public void set_name(String str)throws Exception {
 		// if the length of the string passed as parameter is less than 5
@@ -16,7 +16,7 @@ public class CustomID {
 			state = 0; // set the value of state to zero
 			throw new Exception("Your name is short! Try again!"); // throw an Exception message "Your name is short ! Try again!"
 		}
-		
+
 		// else
 		else {
 			this.name = str; // set the name as the string gotten from the parameter
@@ -25,7 +25,7 @@ public class CustomID {
 			state++; // increments the value of state
 		}
 	}
-	
+
 	// set_age method that can throw Exception
 	public void set_age(int num) throws Exception{
 		// if the value of the parameter passed(num variable) is under 18
@@ -41,7 +41,7 @@ public class CustomID {
 			state++; // increments the value of state
 		}
 	}
-	
+
 	// set_race method that can throw Exception
 	public void set_race(String race) throws Exception{
 		// for loop until the length of the String array: race 
@@ -58,7 +58,7 @@ public class CustomID {
 		state = 2; // sets the value of state to 2
 		throw new Exception("Human! Try again."); // prints the message to try again
 	}
-	
+
 	// getState() method
 	public int getState() {
 		return state; //returns the state value
