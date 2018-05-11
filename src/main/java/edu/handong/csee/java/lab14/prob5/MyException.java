@@ -7,7 +7,7 @@ public class MyException extends Exception {
 
 	// empty constructor
 	public MyException() {
-		super(); // 
+		super(); // calls the empty constructor of its superclass: Exception 
 	}
 
 	// constructor with String parameter passed on
